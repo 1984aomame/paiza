@@ -1,5 +1,4 @@
 <?php
-    // Your code here!
     $input_line = trim(fgets(STDIN));
     $explode_input_line = preg_split("/\s/", $input_line);
     $count = $explode_input_line[0];
