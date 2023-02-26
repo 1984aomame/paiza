@@ -14,7 +14,7 @@
         } elseif ($i % $explode_input_line[2] == 0) {
             echo "B"."\n";
         } else {
-             echo "N"."\n";
+            echo "N"."\n";
         }
         $result++;
     }
