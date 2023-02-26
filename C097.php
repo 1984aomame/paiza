@@ -4,7 +4,6 @@
     $count = $explode_input_line[0];
     $present_a = $explode_input_line[1];
     $present_b = $explode_input_line[2];
-    $result = 0;
     for ($i=1; $i<=$count; $i++) {
         if ($i % $present_a == 0 && $i % $present_b == 0) {
             echo "AB"."\n";
@@ -15,6 +14,5 @@
         } else {
             echo "N"."\n";
         }
-        $result++;
     }
 ?>
