@@ -7,14 +7,14 @@
     $present_b = $explode_input_line[2];
     $result = 0;
     for ($i=1; $i<=$count; $i++) {
-        if ($i % $explode_input_line[1] == 0 && $i % $explode_input_line[2] == 0) {
+        if ($i % $present_a == 0 && $i % $present_b == 0) {
             echo "AB"."\n";
-        } elseif ($i % $explode_input_line[1] == 0) {
+        } elseif ($i % $present_a == 0) {
             echo "A"."\n";
-        } elseif ($i % $explode_input_line[2] == 0) {
+        } elseif ($i % $present_b == 0) {
             echo "B"."\n";
         } else {
-             echo "N"."\n";
+            echo "N"."\n";
         }
         $result++;
     }
